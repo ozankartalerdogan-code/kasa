@@ -1,0 +1,33 @@
+{
+  "name": "kasa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Şifreli yerel parola kasası",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "bin": {
+    "kasa": "./src/baslat.mjs"
+  },
+  "scripts": {
+    "start": "node src/baslat.mjs",
+    "test": "node --test --test-isolation=none"
+  },
+  "dependencies": {
+    "age-encryption": "0.3.1"
+  },
+  "license": "MIT",
+  "files": [
+    "src",
+    "kasa.cmd",
+    "kur.cmd",
+    "kaldir.cmd",
+    "README.md",
+    "README.tr.md",
+    "LICENSE",
+    "SECURITY.md",
+    "package.json",
+    "package-lock.json"
+  ]
+}
